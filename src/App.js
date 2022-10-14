@@ -11,7 +11,6 @@ function App() {
       <Services />
       <Clients />
       <Contact />
-      {/* <img src={'./assests/Final-05.png'} alt='logo' /> */}
     </div>
   );
 }

@@ -31,19 +31,19 @@ const Services = () => {
 
       <div className='grid-center'>
         <div className="parents">
-          <div class="div1">STAKING</div>
-          <div class="div2">RAFFLE SYSTEM</div>
-          <div class="div3">PROJECT CONSULTING</div>
-          <div class="div4">CUSTOM DISCORD BOTS</div>
-          <div class="div5">PARTNERSHIPS</div>
+          <div className="div1">STAKING</div>
+          <div className="div2">RAFFLE SYSTEM</div>
+          <div className="div3">PROJECT CONSULTING</div>
+          <div className="div4">CUSTOM DISCORD BOTS</div>
+          <div className="div5">PARTNERSHIPS</div>
         </div>
-        <hr class='bar-services' />
+        <hr className='bar-services' />
         <div className="parents">
-          <div class="div1">ART GENERATION</div>
-          <div class="div2">LOOTBOXES</div>
-          <div class="div3">FRONT-END DEVELOPMENT</div>
-          <div class="div4">BACK-END DEVELOPMENT</div>
-          <div class="div5">WEBSITE DESIGN</div>
+          <div className="div1">ART GENERATION</div>
+          <div className="div2">LOOTBOXES</div>
+          <div className="div3">FRONT-END DEVELOPMENT</div>
+          <div className="div4">BACK-END DEVELOPMENT</div>
+          <div className="div5">WEBSITE DESIGN</div>
         </div>
       </div>
 
@@ -52,7 +52,8 @@ const Services = () => {
           <p className='desc-cta'>click the button to join the discord then open up a ticket to get in touch with a team member to proceed</p>
         </div>
         <div className='button-services'>
-          <a rel="noreferrer noopener" href='https://discord.com/invite/dvYfNRfxET' target="_blank"><p>JOIN HERE</p></a>
+          <a rel="noreferrer noopener" href='https://discord.com/invite/dvYfNRfxET' target="_blank"><img src={require("../../assests/text.png")} alt="" /></a>
+          {/* <p>JOIN HERE</p> */}
         </div>
       </div>
     </div>
