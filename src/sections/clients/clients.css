@@ -67,6 +67,9 @@
     box-shadow: -1px 2px 25px var(--dark-pink);
 }
 
+.cards-listing:hover img{
+    opacity: 0.85;
+}
 .center-items{
     display: flex;
     flex-wrap: wrap;
